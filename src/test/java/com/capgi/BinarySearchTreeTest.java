@@ -12,7 +12,7 @@ public class BinarySearchTreeTest {
 		BinarySearchTree<Integer> binaryTree = new BinarySearchTree<>();
 		binaryTree.add(56);
 		binaryTree.add(30);
-		// binaryTree.add(70);
+		binaryTree.add(70);
 		Assert.assertEquals(3, binaryTree.getSize());
 	}
 }
